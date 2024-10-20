@@ -62,3 +62,7 @@ Let's say we introduce a new kind of user, an Admin. They have the same keys as 
 Mock data should be property based and randomized. As I write this, I can't think of a good way to get mock data or if somehow there is a way around using mock data and actually hitting the backend in a sandbox way.
 
 You don't know when a user is going to have all the properties you expect and when it won't. I really dislike mocks and I find they're used a lot. Still thinking about this.
+
+# 7: Use bun
+
+Bun makes people nervous because it is new and venture backed. I get that. But it makes tests faster. Faster tests = happier coding. If it is just a build and test tool I wouldn't be too concerned using it in production personally.
