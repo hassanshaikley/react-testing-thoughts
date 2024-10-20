@@ -53,7 +53,9 @@ When you upgrade a dependency you want your test suite to fail.
 
 I have to actually test that this will help \* Whenever this has happened to me I don't think it was captured in a test.
 
-# 5: Group tests of similar components
+# 5: Test that components that are fundamentally different but look the same render the same properties
+
+I can't think of a good way to do this yet but will try to and will try to create an example.
 
 Let's say we introduce a new kind of user, an Admin. They have the same keys as users. But a (made up and maybe not the most realistic constraint, maybe they come from a different service, whatever) reason they are different database tables. Or so…that's supposed to be the case. A valuable assertion would be asserting that an Admin renders the same as a regular user. But to do this you either need an up to date mock.
 
