@@ -1,4 +1,4 @@
-# react-testing-example
+# React Testing Thoughts
 
 To install dependencies:
 
