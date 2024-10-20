@@ -1,5 +1,10 @@
-import { render } from "@testing-library/react";
+import { useEffect, useState } from "react";
 
 export const ActExample = () => {
-  return <div>Hello World</div>;
+  const [thing, setThing] = useState();
+
+  useEffect(() => {
+    setThing("Hello World");
+  });
+  return <div>{thing}</div>;
 };
