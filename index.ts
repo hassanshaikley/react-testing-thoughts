@@ -1,4 +1,4 @@
 await Bun.build({
-  entrypoints: ["./index.tsx"],
+  entrypoints: ["./lib/index.tsx"],
   outdir: "./build",
 });
